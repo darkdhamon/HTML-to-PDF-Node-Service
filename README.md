@@ -48,6 +48,14 @@ pm2 start GenPDFService.js
 pm2 startup systemd
 ```
 2. pm2 will generate a script for you copy and paste it into the terminal
+3. Type the following
+```
+pm2 save
+```
+4. If for some reason this service does not start on reboot type
+```
+pm2 resurrect
+```
 
 ## Uninstall Instructions
 ### Windows
